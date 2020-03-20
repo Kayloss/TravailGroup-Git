@@ -8,7 +8,7 @@ if(isset($_POST['form_login'])) {
     $sql = "INSERT INTO users (prenom, nom, email) VALUES (:prenom, :nom, :email)";
     $sth=$bdd->prepare($sql, array(PDO::ATTR_CURSOR=>PDO::CURSOR_FWDONLY));
     $sth->execute(array(':prenom'=>$prenom, ':nom'=>$nom,':email'=>$email));
-    header("Location: ../../index.html");
+    header("Location: ../../index.php");
     exit();
 }
 ?>

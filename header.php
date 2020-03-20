@@ -15,13 +15,13 @@ session_start();
         <h1>LEBONCOINCOIN</h1>
         <ul>
             <li><a href="index.php">Accueil</a></li>
-            <li><a href="login.php">Contact</a></li>
+            <li><a href="form_contact.php">Contact</a></li>
             <li><a href="shop/index.html">Shop</a></li>
             <?php
             if(isset($_SESSION['id'])){
                 echo '<li><a href="#">Logout</a></li>';
             }else{
-                echo '<li><a href="#">Login</a></li>';
+                echo '<li><a href="login.php">Login</a></li>';
             }
             ?>
             <ul>

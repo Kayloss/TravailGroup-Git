@@ -54,7 +54,7 @@ body {
     border-color: #2ecc71;
 }
 
-.box button[type = "button"],.box button[type = "reset"]{
+.box button[type = "button"],.box button[type = "reset"],.box button[type = "submit"]{
     border: 0;
     background: none;
     display: block;
@@ -75,12 +75,12 @@ body {
 
 }
 
-.box button[type = "button"]:disabled:hover{
+.box button[type = "submit"]:disabled:hover{
     background: red;
 
 }
 
-.box button[type = "button"]:enabled:hover{
+.box button[type = "submit"]:enabled:hover{
     background: #2ecc71;
 
 }

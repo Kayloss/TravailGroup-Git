@@ -9,9 +9,14 @@
     <meta name="robots" content="index,follow">
     <title>Page de login</title>
     <link rel="stylesheet" type="text/css" href="assets/css/style-loggin.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body >
+
+<?php
+require "header.php"
+?>
 
 <div>
     <form  class="box"  action="assets/php/connexion.php" method="post">
@@ -35,6 +40,9 @@
     </form>
 </div>
 </main>
+<?php
+require "footer.php"
+?>
 <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>

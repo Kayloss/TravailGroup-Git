@@ -3,7 +3,7 @@
 <br> 
 Sylvain BENOIST <br>
 Frederique PEREIRA <br>
-Côme Marry-valley <br>
+Côme Mary-Vallée <br>
 Enzo Le-Port <br>
 Ilias Laazar <br>
 <a href="#">Lien du gitLab</a>

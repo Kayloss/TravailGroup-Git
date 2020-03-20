@@ -8,14 +8,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="robots" content="index,follow">
     <title>Page de login</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style-loggin.css">
 </head>
 
 <body >
 
 <div>
-    <form class="box" >
+    <form  class="box"  action="assets/php/connexion.php" method="post">
         <h1>Inscription</h1>
         <div>
             <input id="nameField" onkeyup="verifInput(this)"  type="text" name="nom"
@@ -30,7 +29,7 @@
                    pattern="^([a-z0-9,!#\$%&'\*\+/=\?\^_`\{\|}~-]+(\.[a-z0-9,!#\$%&'\*\+/=\?\^_`\{\|}~-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*\.([a-z]{2,})){1}(;[a-z0-9,!#\$%&'\*\+/=\?\^_`\{\|}~-]+(\.[a-z0-9,!#\$%&'\*\+/=\?\^_`\{\|}~-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*\.([a-z]{2,}))*$" placeholder="Email">
         </div>
         <div>
-            <button id="okey" onclick="envoye(this)" type="button" disabled>Valider</button>
+            <button id="okey" name="form_login" onclick="envoye(this)" type="submit" disabled>Valider</button>
             <button id="stop" onclick="erase(this)" type="reset">Effacer</button>
         </div>
     </form>

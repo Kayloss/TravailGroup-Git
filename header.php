@@ -12,6 +12,7 @@ session_start();
 <body>
 <header>
     <nav>
+        <h1>LEBONCOINCOIN</h1>
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="form_contact.php">Contact</a></li>
@@ -24,5 +25,5 @@ session_start();
             }
             ?>
             <ul>
-                <nav>
-                    <header>
+    </nav>
+</header>

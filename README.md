@@ -3,7 +3,8 @@
 <br> 
 Sylvain BENOIST <br>
 Frederique PEREIRA <br>
-Côme Mary-Vallée <br>
-Enzo Le-Port <br>
-Ilias Laazar <br>
-<a href="#">Lien du gitLab</a>
+Côme MARY-VALLEE <br>
+Enzo LE-PORT <br>
+Ilias LAAZAR <br>
+Laurent VARDEN <br>
+<a href="#">Lien du GiT</a>

@@ -4,7 +4,7 @@
         <h1>LEBONCOINCOIN</h1>
         <ul>
             <li><a href="index.php">Accueil</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
             <li><a href="shop/index.html">Shop</a></li>
             <?php
             if(isset($_SESSION['id'])){
